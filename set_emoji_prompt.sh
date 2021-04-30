@@ -1,6 +1,6 @@
 #!/bin/bash
 
-emoji="🧠"
+emoji=$1
 
 if test -n "$ZSH_VERSION"; then
   PROMPT="%n %~ ${emoji} "
